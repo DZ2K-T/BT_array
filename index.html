@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container"></div>
+    <h2>Nhập mảng số nguyên</h2>
+    <div class="input-field">
+        <label for="numbers">Nhập các số nguyên cách nhau bằng dấu phẩy</label>
+        <input type="text" id="numbers" placeholder="vd: 1, -3, 4, 5">
+    </div>
+    <div class="buttons">
+        <button style="background-color: brown;" class="btn_1" onclick="tongsoDuong()">Tính tổng số dương</button>
+        <button style="background-color: purple;" class="btn_1" onclick="demsoDuong()">Đếm số dương</button>
+        <button style="background-color: aqua;" class="btn_1" onclick="timsonhoNhat()">Tìm số nhỏ nhất</button>
+        <button style="background-color: yellowgreen;" class="btn_1" onclick="timsoDuongnhonhat()">Tìm số dương nhỏ
+            nhất</button>
+        <button style="background-color: violet;" class="btn_1" onclick="timsoChancuoicung()">Tìm số chẵn cuối
+            cùng</button>
+        <button style="background-color: tomato;" class="btn_1" onclick="doiCho2giatri()">Đổi chỗ 2 giá trị</button>
+        <button style="background-color: bisque;" class="btn_1" onclick="sapXeptang()">Giá trị tăng dần</button>
+        <button class="btn_1" onclick="soSanhamduong()">So sánh số dương và số âm</button>
+
+
+    </div>
+
+    <div class="result">
+        <h3>Kết quả</h3>
+        <p id="result-text"></p>
+    </div>
+    <!-- ---------------- -->
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
